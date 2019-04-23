@@ -8,13 +8,13 @@ Requirements:
 2) The account's "less secoure app access" setting should be set to 'ON'.(https://myaccount.google.com/lesssecureapps).
 3) The file name should be 'auth.js'.
 4) The root directory of the file should be 'my-chart/Server'.
-5) The codes in the 'auth.js' should be..
-      var auth = {
-        user: '(your gmail address)',
-        pass: '(your gmail account's password)'
-      }
-
-      module.exports = {
-        auth: auth
+5) The codes in the 'auth.js' should be..<br/>
+      var auth = {<br/>
+        user: '(your gmail address)',<br/>
+        pass: '(your gmail account's password)'<br/>
+      }<br/>
+<br/>
+      module.exports = {<br/>
+        auth: auth<br/>
       }
 
