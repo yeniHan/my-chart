@@ -13,7 +13,6 @@ Requirements:
         user: '(your gmail address)',<br/>
         pass: '(your gmail account's password)'<br/>
       }<br/>
-<br/>
             module.exports = {<br/>
                   auth: auth<br/>
             }
