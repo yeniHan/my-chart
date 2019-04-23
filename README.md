@@ -14,7 +14,7 @@ Requirements:
         pass: '(your gmail account's password)'<br/>
       }<br/>
 <br/>
-      module.exports = {<br/>
-        auth: auth<br/>
-      }
+            module.exports = {<br/>
+                  auth: auth<br/>
+            }
 
