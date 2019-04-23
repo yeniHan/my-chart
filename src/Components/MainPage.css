@@ -1,0 +1,114 @@
+
+/* #app-name-container{
+    background-color: white;
+    width: 362px;
+    margin: 112px auto 0;
+
+
+} */
+
+#app-name{
+    font-family: "Mrs Sheppards", cursive;
+    color: white;
+    font-size: 121px;
+    margin: 44px auto 55px;
+    width: 474px;
+    /* animation: rotate-name 2s linear; */
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@keyframes rotate-name{
+    from{
+        transform: rotate(-20deg);
+    }
+    to{
+        transform: rotate(0deg);
+    }
+}
+
+#charts-background{
+    padding: 12px;
+    width: 800px;
+    margin: auto;
+    border: solid;
+    /* background: black; */
+    background-color: #333030;
+}
+
+#charts{
+    display: flex;
+    width: 611px;
+    justify-content: space-between;
+    margin: 31px auto;
+}
+
+.x-y-line, #line{
+    stroke: url(#gradient);
+    stroke-width: 4px;
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: draw 2s linear forwards;
+    fill: none;
+}
+
+.main-stop {
+    stop-color: rgb(117, 227, 255);
+}
+.alt-stop {
+  stop-color: rgb(43, 247, 2);
+}
+
+#start-btn{
+    width: 300px;
+    margin: 48px auto 0;
+    border-width: 3px;
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    height: 89px;
+    border-radius: 19px;
+    color: black;
+    font-size: 50px;
+}
+
+.bar{
+    fill: url(#gradient);
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+} 
+
+#bar-1{
+    animation: grow 0.3s linear forwards; 
+    x: 15px;
+    y: 148;
+}
+#bar-2{
+    animation: grow 0.5s linear forwards; 
+    x: 75;
+    y: 108;
+}
+#bar-3{
+    animation: grow 1s linear forwards; 
+    x: 133;
+    y: 8;
+}
+
+@keyframes draw{
+    to{
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes grow{
+    from{
+        y: 160
+    }
+}
+
+.Sektor{
+    width: 164px;
+    height: 164px;
+}
+

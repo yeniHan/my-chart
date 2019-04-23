@@ -1,0 +1,310 @@
+
+/* all button's style'll be overrided. */
+
+
+
+/* .file-drop > .file-drop-target{
+    background-color: yellow;
+    width: 200px;
+    height: 100px;
+} */
+
+#bar-display-btn{
+    /* width: 100px;
+    height: 100px;
+    font-family: 30px;
+    background-color: aqua;
+    position: absolute;
+    top: 3px;
+    left: 800px; */
+}
+
+
+
+#add-btn{
+    width: 100px;
+    height: 50px;
+    font-size: 30px;
+    background-color: burlywood;
+}
+
+
+
+#stored-charts{
+    width: 1139px;
+    margin-top: 19px;
+    margin-bottom: 10px; 
+}
+.bar, .line, .pie{
+    font-size: 40px;
+    width: 100px;
+    margin-right: 10px;
+}
+
+#stored-charts .bar{
+    background-color: rgb(252, 98, 252);
+}
+
+#stored-charts .line{
+    background-color: yellow;
+}
+
+#stored-charts .pie{
+    background-color: rgb(47, 241, 255);
+}
+
+#stored-charts .line{
+    background-color: rgb(89, 255, 47);
+}
+
+#stored-charts-title{
+    font-size: 21px;
+    margin-bottom: 6px;
+}
+
+#stored-charts-box{
+    height: 110px;
+}
+/* ///////////////////////////////////////////////////////// */
+#chart-page{
+    padding: 118px;
+    padding-top: 70px;
+    font-family: 'Work Sans', sans-serif;
+}
+#explination{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 31px;
+}
+
+.exp-em{
+    color: #4f4fff;
+    font-weight: bold;
+}
+
+#react-fc{
+    position: absolute;
+    top: 0px;
+    left: 800px;
+
+}
+
+#config-map{
+    display: none;
+}
+
+button{
+    border-style: unset;
+    background-color: white;
+}
+
+
+.file-drop{
+    background-color: #b3b1b521;
+    width: 350px;
+    height: 173px;
+    margin:auto;
+    /* padding: 10px; */
+}
+
+.file-drop-target{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 169px;
+        align-items: center;
+}
+
+#drop-box{
+    margin: 76px 0;
+}
+
+
+.fa-dropbox{
+    color: #b4adad70;
+    font-size: 65px;
+}
+#cncc-map{
+    display: none;
+}
+
+.config-n-chart-container{
+    display: flex;
+}
+
+.config-n-chart-container #cncc-bar{
+    width: 1275px;
+}
+.config-box{
+    width: 395px;
+}
+.chart{
+    width: 702px;
+}
+
+.selectors{
+    display: flex;
+
+}
+
+.selector{
+    font-size: 27px;
+    color: #4f4fff;
+    background: #80808059;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    width: 102px;
+    border: 0.7px solid #808080ad;
+}
+
+.config-box{
+    padding: 20px;
+}
+
+.guide-text{
+    margin-bottom: 20px;
+}
+
+.note{
+    margin-bottom: 20px;
+}
+
+.required-title{
+    margin-bottom: 4px;
+    font-weight: bold;
+}
+.optional-title{
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+input, select{
+    width: 235px;    
+}
+
+.select-box, .input-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .select-box{
+    width: 270px;
+}
+
+.input-box{
+    width:  393px;
+}
+.input-box > input{
+    width: 235px;
+} */
+
+.required-config, .optional-config{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 18px;
+}
+.required-config{
+    height: 81px;
+    color: blue;
+}
+
+#cncc-pie .required-config{
+    height: 97px;
+}
+.optional-config{
+    height: 164px;
+
+}
+.config-buttons{
+    display: flex;
+    width: 262px;
+    justify-content: space-between;
+}
+.config-buttons>button{
+    background-color: #74dcf2a3;
+    font-size: 20px;
+    border: 1px solid #808080a6;
+}
+
+#pie-config-list{
+    position: relative;
+    left: 417px;
+    width: 250px;
+    top: -99px;
+}
+
+#pie-add-btn{
+    font-size: 15px;
+    margin-top: 5px;
+    background-color: #c7c0c0b0;
+    margin-left: 157px;
+    border: 0.7px solid gray;
+}
+
+#json-emphasis{
+    color: red;
+    font-weight: bold;
+}
+
+.required-selectors{
+    display: flex;
+    flex-direction: column;
+    height: 47px;
+    justify-content: space-between;
+}
+
+#pie-config-inputs .input-box{
+    margin-bottom: 5px;
+}
+
+input{
+    height: 20px;
+}
+
+#pie-react-fc{
+    margin-top: 26px;
+}
+
+#pdf-size-setting-popup .input-box{
+    width: 316px;
+    
+}
+
+#pdf-size-setting-popup-background{
+    width: 100%;
+    height: 1540px;
+    background-color: #8080806e;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: flex;
+}
+
+#pdf-size-setting-popup{
+    /* position: absolute; */
+    z-index: 1000;
+    background: #e1f3f6;
+    /* top: 300px; */
+    width: 629px;
+    margin: auto;
+    height: 176px;
+    padding: 30px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+#pdf-size-setting-popup-set-btn{
+    width: 200px;
+    border: 0.7px solid #808080e3;
+    height: 26px;
+}
+
+#send-email-btn{
+    background-color: #5302fa5e;
+    font-size: 24px;
+    height: 40px;
+    border: gray;
+}
