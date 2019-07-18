@@ -1,4 +1,4 @@
-Because of the codes for sending an email, to see how the app is running fully,
+Because of the codes for sending an email, to see how the app is running,
 an addtional file is needed to include the information of the email account which you can use.
 
 
